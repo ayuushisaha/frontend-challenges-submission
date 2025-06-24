@@ -19,13 +19,18 @@
             --color-primary: #00C9B1; /* Vibrant Teal/Green */
             --color-secondary: #008D79; /* Darker Teal */
             --color-background-base: #0A0A0A; /* Very dark base background */
-            --color-glass-bg: rgba(255, 255, 255, 0.05); /* More transparent, lighter glass background */
+            --color-glass-bg: rgba(255, 255, 255, 0.08); /* More transparent, lighter glass background */
             --color-glass-border: rgba(255, 255, 255, 0.1); /* Subtle white border for glass */
             --color-text-light: #F0F0F0; /* Light text for contrast */
             --color-text-muted: #A0A0A0; /* Muted text for descriptions */
             --color-shadow: rgba(0, 0, 0, 0.4); /* More pronounced shadows for depth */
             --blur-intensity: blur(25px); /* Even more intense blur for diffused glass effect */
             --background-patch-color: rgba(0, 201, 177, 0.12); /* Slightly more opaque color for blurred patches */
+        }
+
+        /* Ensure HTML and Body always hide horizontal overflow */
+        html, body {
+            overflow-x: hidden; /* Strongly prevent horizontal scroll */
         }
 
         body {
@@ -35,7 +40,6 @@
             transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
             min-height: 100vh;
             position: relative; /* Needed for patches */
-            overflow-x: hidden; /* Prevent horizontal scroll from patches */
         }
 
         /* Common styles for background patches */
@@ -45,6 +49,10 @@
             border-radius: 50%;
             z-index: -1; /* Send behind content */
             pointer-events: none; /* Do not interfere with clicks */
+            /* Ensure patches don't directly cause overflow by being excessively large relative to viewport */
+            /* Using vw for width to scale with viewport, max-width to prevent excessive growth */
+            max-width: 100vw;
+            max-height: 100vh;
         }
 
         /* Custom glassmorphism effect for all relevant elements */
