@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge Submissions | Codextream Community</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts for Space Grotesk -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Tab Icon -->
+    <link rel="icon" href="https://codextream.in/logo.svg">
+
+    <style>
+        /* Custom CSS Variables for the new dark theme */
+        :root {
+            --color-primary: #00C9B1; /* Vibrant Teal/Green */
+            --color-secondary: #008D79; /* Darker Teal */
+            --color-background-base: #0A0A0A; /* Very dark base background */
+            --color-glass-bg: rgba(255, 255, 255, 0.05); /* More transparent, lighter glass background */
+            --color-glass-border: rgba(255, 255, 255, 0.1); /* Subtle white border for glass */
+            --color-text-light: #F0F0F0; /* Light text for contrast */
+            --color-text-muted: #A0A0A0; /* Muted text for descriptions */
+            --color-shadow: rgba(0, 0, 0, 0.4); /* More pronounced shadows for depth */
+            --blur-intensity: blur(25px); /* Even more intense blur for diffused glass effect */
+            --background-patch-color: rgba(0, 201, 177, 0.12); /* Slightly more opaque color for blurred patches */
+        }
+
+        body {
+            font-family: 'Space Grotesk', sans-serif; /* Apply Space Grotesk font */
+            background-color: var(--color-background-base); /* Solid dark background */
+            color: var(--color-text-light);
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+            min-height: 100vh;
+            position: relative; /* Needed for patches */
+            overflow-x: hidden; /* Prevent horizontal scroll from patches */
+        }
+
+        /* Common styles for background patches */
+        .background-patch {
+            position: absolute;
+            background-color: var(--background-patch-color);
+            border-radius: 50%;
+            z-index: -1; /* Send behind content */
+            pointer-events: none; /* Do not interfere with clicks */
+        }
+
+        /* Custom glassmorphism effect for all relevant elements */
+        .glass {
+            background-color: var(--color-glass-bg);
+            backdrop-filter: var(--blur-intensity);
+            border: 1px solid var(--color-glass-border);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Navbar specific styles */
+        .navbar {
+            background-color: var(--color-glass-bg); /* Use glass background for navbar */
+            backdrop-filter: var(--blur-intensity);
+            border-bottom: 1px solid var(--color-glass-border);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Consistent shadow for navbar */
+        }
+
+        /* Project card specific background - now fully glass */
+        .project-card {
+            background-color: var(--color-glass-bg); /* Now a glass effect too */
+            backdrop-filter: var(--blur-intensity);
+            border: 1px solid var(--color-glass-border); /* Consistent border */
+            box-shadow: 0 4px 30px rgba(0,0,0,0.2); /* Soft shadow for cards */
+        }
+
+        /* Search input specific styles to apply glass */
+        .search-wrap input#search {
+            background-color: var(--color-glass-bg);
+            backdrop-filter: var(--blur-intensity);
+            border: 1px solid var(--color-glass-border); /* Match glass border */
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Match glass shadow */
+        }
+        /* Override specific focus state for search to match primary color */
+        .search-wrap input#search:focus {
+            border-color: var(--color-primary); /* Keep primary color on focus */
+            background-color: rgba(255, 255, 255, 0.05); /* Slightly lighter on focus */
+        }
+
+
+        /* Adjust hover effect for cards */
+        .project-card:hover {
+            transform: translateY(-8px); /* More pronounced lift */
+            box-shadow: 0 15px 40px var(--color-shadow); /* Stronger shadow on hover */
+        }
+
+        /* Space Grotesk font specifics */
+        .font-space-grotesk {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        /* Keyframe for pulse effect on heart */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        /* Keyframes for patch movement animations */
+        @keyframes movePatch1 {
+            0% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(50px, -30px) scale(1.05); }
+            100% { transform: translate(0, 0) scale(1); }
+        }
+
+        @keyframes movePatch2 {
+            0% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(-40px, 60px) scale(1.1); }
+            100% { transform: translate(0, 0) scale(1); }
+        }
+
+        @keyframes movePatch3 {
+            0% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(30px, 40px) scale(1.03); }
+            100% { transform: translate(0, 0) scale(1); }
+        }
+        @keyframes movePatch4 {
+            0% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(-20px, -50px) scale(1.08); }
+            100% { transform: translate(0, 0) scale(1); }
+        }
+        @keyframes movePatch5 {
+            0% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(60px, -10px) scale(1.02); }
+            100% { transform: translate(0, 0) scale(1); }
+        }
+    </style>
+</head>
+<body class="transition-colors duration-300 ease-in-out">
+    <!-- Background patches (added as specific divs for more control) -->
+    <div class="background-patch top-1/4 left-1/4 w-96 h-96 filter blur-[150px] opacity-70 animate-movePatch1"></div>
+    <div class="background-patch bottom-1/3 right-1/4 w-80 h-80 filter blur-[120px] opacity-60 animate-movePatch2"></div>
+    <div class="background-patch top-10 right-1/2 w-72 h-72 filter blur-[180px] opacity-50 animate-movePatch3"></div>
+    <div class="background-patch bottom-10 left-1/3 w-64 h-64 filter blur-[100px] opacity-40 animate-movePatch4"></div>
+    <div class="background-patch top-1/2 left-10 w-128 h-128 filter blur-[200px] opacity-30 animate-movePatch5"></div>
+    <div class="background-patch bottom-20 right-10 w-112 h-112 filter blur-[170px] opacity-20 animate-movePatch1"></div>
+
+
+    <!-- Navbar -->
+    <nav class="navbar w-full sticky top-0 z-50 flex items-center justify-between py-4 px-6 md:px-12 rounded-b-3xl">
+        <div class="flex items-center">
+            <span class="text-2xl md:text-3xl font-bold tracking-tight text-[var(--color-primary)] font-space-grotesk">Codextream Community</span>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 py-8 md:py-12 max-w-7xl">
+        <!-- Instructions Section -->
+        <section class="instructions glass p-6 md:p-10 rounded-2xl text-center max-w-3xl mx-auto my-8">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-2 text-[var(--color-primary)] tracking-tight font-space-grotesk">
+                Challenge Submissions
+            </h1>
+            <p class="text-lg md:text-xl font-semibold mb-6 text-[var(--color-secondary)] font-space-grotesk">
+                <b>by Codextream Community</b>
+            </p>
+            <ul class="text-left max-w-xl mx-auto list-disc pl-5 text-[var(--color-text-muted)] leading-relaxed font-space-grotesk">
+                <li class="mb-2"><b>Fork</b> this repository</li>
+                <li class="mb-2"><b>Add</b> your project in the correct <code class="bg-[var(--color-card-bg)] text-[var(--color-primary)] px-2 py-1 rounded">YYYY-MM-DD.json</code></li>
+                <li class="mb-2">Include: Project Name, Your Name, Roll No., Branch, College, Live Link, and socials (optionals)</li>
+                <li class="mb-2"><b>Open a Pull Request</b>—your project will appear below after merge!</li>
+            </ul>
+        </section>
+
+        <!-- Search Bar -->
+        <div class="search-wrap flex justify-center my-8 md:my-12">
+            <input type="text" id="search" placeholder="🔍 Search by project, name, branch, college, event..." autocomplete="off"
+                class="w-full max-w-2xl px-6 py-4 text-lg border-2 rounded-full
+                focus:outline-none text-[var(--color-text-light)] placeholder-[var(--color-text-muted)]
+                shadow-lg transition-all duration-300 ease-in-out font-space-grotesk">
+        </div>
+
+        <!-- Events Container -->
+        <main id="events" class="grid gap-12 md:gap-16"></main>
+
+        <!-- Footer -->
+        <footer class="text-center mt-16 py-8 text-sm md:text-base text-[var(--color-text-muted)] font-space-grotesk">
+            <p>
+                Made with <span class="heart text-red-500 text-xl inline-block animate-pulse">❤</span> by
+                <a href="https://codextream.in" target="_blank" rel="noopener" class="text-[var(--color-primary)] font-semibold hover:underline">Codextream Community</a>.
+                <br> and created by
+                <a href="" target="_blank" class="text-[var(--color-primary)] font-semibold hover:underline">Ravixalgorithm</a>.
+            </p>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
