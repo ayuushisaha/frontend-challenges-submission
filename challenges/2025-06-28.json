@@ -4,19 +4,6 @@
       "date": "2025-06-28",
       "status": "upcoming",
       "projects": [
-        {
-            "projectName": "FC01_Ravi",
-            "studentName": "Ravi Pratap Singh",
-            "rollNo": "230104047",
-            "branch": "Computer Science & Engineering",
-            "college": "Harcourt Butler Technical University",
-            "liveLink": "https://philosopai.netlify.app/",
-            "socials": {
-              "github": "https://github.com/ravixalgorthm",
-              "linkedin": "https://linkedin.com/in/ravixalgorthm",
-              "instagram": "https://instagram.com/ravixalgorthm"
-            }
-          }
 
       ]
     }
