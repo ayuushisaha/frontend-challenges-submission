@@ -66,6 +66,18 @@
           "linkedin": "https://www.linkedin.com/in/lokesh-singhal",
           "instagram": "https://instagram.com/singhal_g_"
         }
+      },
+      {
+      "projectName": "PS_Akhil",
+        "studentName": "Akhil",
+        "rollNo": "124108054",
+        "branch": "Artificial Intelligence and Machine Learning",
+        "college": "National Institute of Technology, Kurukshetra",
+        "liveLink": "https://akhil-sandy.vercel.app/",
+        "socials": {
+          "github": "https://github.com/usernameakhil",
+          "linkedin": "https://www.linkedin.com/in/shaik-mohammad-akhil-a51540318/"
+        }
       }
     ]
   }
