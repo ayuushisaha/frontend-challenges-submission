@@ -40,7 +40,20 @@
           "linkedin": "https://www.linkedin.com/in/dev-niranjan-5810a1337",
           "instagram": ""
         }
-      }
+      },
+      {
+  "projectName": "PS_kartikey",
+  "studentName": "kartikey gupta",
+  "rollNo": "240106039",
+  "branch": "Electronics engineering",
+  "college": "Harcourt Butler Technical University",
+  "liveLink": "",
+  "socials": {
+    "github": "https://github.com/kartikey862",
+    "linkedin": "",
+    "instagram": "https://www.instagram.com/kartikeygupta0311/"
+  }
+}
     ]
   }
 ]
