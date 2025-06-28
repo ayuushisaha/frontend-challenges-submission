@@ -5,7 +5,7 @@
     "status": "Active",
     "projects": [
       {
-        "projectName": "PS_Aditya",
+      "projectName": "PS_Aditya",
         "studentName": "Aditya Ranjan",
         "rollNo": "1RV23AI008",
         "branch": "Artificial Intelligence and Machine Learning",
@@ -42,19 +42,56 @@
         }
       },
       {
-  "projectName": "PS_kartikey",
-  "studentName": "kartikey gupta",
-  "rollNo": "240106039",
-  "branch": "Electronics engineering",
-  "college": "Harcourt Butler Technical University",
-  "liveLink": "",
-  "socials": {
-    "github": "https://github.com/kartikey862",
-    "linkedin": "",
-    "instagram": "https://www.instagram.com/kartikeygupta0311/"
-  }
-}
+        "projectName": "PS_Sankalp",
+        "studentName": "Sankalp Omar",
+        "rollNo": "240104063",
+        "branch": "Computer Science & Engineering",
+        "college": "Harcourt Butler Technical University",
+        "liveLink": "https://guileless-stardust-c61afb.netlify.app/",
+        "socials": {
+          "github": "https://github.com/sankalp6115",
+          "linkedin": "https://www.linkedin.com/in/sankalp-omar-689a48325/",
+          "instagram": "https://www.instagram.com/sankalp_omar6115/"
+        }
+      },
+      {
+        "projectName": "PS_Lokesh",
+        "studentName": "Lokeh Singhal",
+        "rollNo": "240108039",
+        "branch": "Information Technology",
+        "college": "Harcourt Butler Technical University",
+        "liveLink": "https://sampleia.netlify.app/",
+        "socials": {
+          "github": "https://github.com/lokesh-singhal",
+          "linkedin": "https://www.linkedin.com/in/lokesh-singhal",
+          "instagram": "https://instagram.com/singhal_g_"
+        }
+      },
+      {
+        "projectName": "PS_Akhil",
+        "studentName": "Akhil",
+        "rollNo": "124108054",
+        "branch": "Artificial Intelligence and Machine Learning",
+        "college": "National Institute of Technology, Kurukshetra",
+        "liveLink": "https://akhil-sandy.vercel.app/",
+        "socials": {
+          "github": "https://github.com/usernameakhil",
+          "linkedin": "https://www.linkedin.com/in/shaik-mohammad-akhil-a51540318/"
+        }
+      },
+      {
+        "projectName": "PS_kartikey",
+        "studentName": "kartikey gupta",
+        "rollNo": "240106039",
+        "branch": "Electronics engineering",
+        "college": "Harcourt Butler Technical University",
+        "liveLink": "",
+        "socials": {
+          "github": "https://github.com/kartikey862",
+          "linkedin": "",
+          "instagram": "https://www.instagram.com/kartikeygupta0311/"
+        }
+      }
     ]
   }
 ]
-
