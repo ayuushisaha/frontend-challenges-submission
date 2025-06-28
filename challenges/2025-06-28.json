@@ -80,6 +80,19 @@
         }
       },
       {
+  "projectName": "PS_Nitya",
+  "studentName": "Sai Nitya Sri",
+  "rollNo": "124114037",
+  "branch": "Sustainable Energy Technologies",
+  "college": "National Institute of Technology, Kurukshetra",
+  "liveLink": "https://nitya-ux.github.io/frontend_challenge/",
+  "socials": {
+    "github": "https://github.com/Nitya-ux",
+    "linkedin": "https://www.linkedin.com/in/sai-nitya-sri-vysyaraju-16a688323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  }
+},
+
+      {
         "projectName": "PS_kartikey",
         "studentName": "kartikey gupta",
         "rollNo": "240106039",
