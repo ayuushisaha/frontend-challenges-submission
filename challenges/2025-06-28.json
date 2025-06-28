@@ -1,10 +1,22 @@
 [
-    {
-      "event": "Profile Submission [PS]",
-      "date": "2025-06-28",
-      "status": "Active",
-      "projects": [
-
-      ]
-    }
-  ]
+  {
+    "event": "Profile Submission [PS]",
+    "date": "2025-06-28",
+    "status": "Active",
+    "projects": [
+      {
+        "projectName": "FC01_Lokesh",
+        "studentName": "Lokeh Singhal",
+        "rollNo": "240108039",
+        "branch": "Information Technology",
+        "college": "Harcourt Butler Technical University",
+        "liveLink": "https://sampleia.netlify.app/",
+        "socials": {
+          "github": "https://github.com/lokesh-singhal",
+          "linkedin": "https://www.linkedin.com/in/lokesh-singhal",
+          "instagram": "https://instagram.com/singhal_g_"
+        }
+      }
+    ]
+  }
+]
