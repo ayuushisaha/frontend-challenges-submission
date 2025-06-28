@@ -1,10 +1,21 @@
 [
-    {
-      "event": "Profile Submission [PS]",
-      "date": "2025-06-28",
-      "status": "Active",
-      "projects": [
-
-      ]
-    }
-  ]
+  {
+    "event": "Profile Submission [PS]",
+    "date": "2025-06-28",
+    "status": "Active",
+    "projects": [
+      {
+        "projectName": "Student Card",
+        "studentName": "Shruti Singh",
+        "rollNo": "240105066",
+        "branch": "Electrical Engineering",
+        "college": "Harcourt Butler Technical University",
+        "liveLink": "https://shrutiiii007.github.io/student-card/",
+        "socials": {
+          "github": "https://github.com/shrutiiii007",
+          "linkedin": "http://linkedin.com/in/shruti-singh-075b06325/"
+        }
+      }
+    ]
+  }
+]
