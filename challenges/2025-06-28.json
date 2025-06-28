@@ -5,19 +5,6 @@
     "status": "Active",
     "projects": [
       {
-        "projectName": "PS_Lokesh",
-        "studentName": "Lokeh Singhal",
-        "rollNo": "240108039",
-        "branch": "Information Technology",
-        "college": "Harcourt Butler Technical University",
-        "liveLink": "https://sampleia.netlify.app/",
-        "socials": {
-          "github": "https://github.com/lokesh-singhal",
-          "linkedin": "https://www.linkedin.com/in/lokesh-singhal",
-          "instagram": "https://instagram.com/singhal_g_"
-        }
-      },
-      {
       "projectName": "PS_Aditya",
         "studentName": "Aditya Ranjan",
         "rollNo": "1RV23AI008",
@@ -65,6 +52,19 @@
           "github": "https://github.com/sankalp6115",
           "linkedin": "https://www.linkedin.com/in/sankalp-omar-689a48325/",
           "instagram": "https://www.instagram.com/sankalp_omar6115/"
+        }
+      },
+      {
+        "projectName": "PS_Lokesh",
+        "studentName": "Lokeh Singhal",
+        "rollNo": "240108039",
+        "branch": "Information Technology",
+        "college": "Harcourt Butler Technical University",
+        "liveLink": "https://sampleia.netlify.app/",
+        "socials": {
+          "github": "https://github.com/lokesh-singhal",
+          "linkedin": "https://www.linkedin.com/in/lokesh-singhal",
+          "instagram": "https://instagram.com/singhal_g_"
         }
       }
     ]
