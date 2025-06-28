@@ -4,6 +4,20 @@
     "date": "2025-06-28",
     "status": "Active",
     "projects": [
+
+      {
+        "projectName": "PS_Shubh",
+        "studentName": "SHUBH SRIVASTAVA",
+        "rollNo": "240110063",
+        "branch": "Mechanical Engineering",
+        "college": "Harcourt Butler Technical University",
+        "liveLink": "https://shubh0dev.github.io/Student_info/student_card.html",
+        "socials": {
+          "github": "https://github.com/Shubh0dev",
+          "linkedin": "https://www.linkedin.com/in/shubh-srivastava-abba40317/"
+                  }
+      },
+
       {
       "projectName": "PS_Aditya",
         "studentName": "Aditya Ranjan",
