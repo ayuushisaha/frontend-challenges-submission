@@ -68,7 +68,7 @@
         }
       },
       {
-      "projectName": "PS_Akhil",
+        "projectName": "PS_Akhil",
         "studentName": "Akhil",
         "rollNo": "124108054",
         "branch": "Artificial Intelligence and Machine Learning",
@@ -77,6 +77,19 @@
         "socials": {
           "github": "https://github.com/usernameakhil",
           "linkedin": "https://www.linkedin.com/in/shaik-mohammad-akhil-a51540318/"
+        }
+      },
+      {
+        "projectName": "PS_kartikey",
+        "studentName": "kartikey gupta",
+        "rollNo": "240106039",
+        "branch": "Electronics engineering",
+        "college": "Harcourt Butler Technical University",
+        "liveLink": "",
+        "socials": {
+          "github": "https://github.com/kartikey862",
+          "linkedin": "",
+          "instagram": "https://www.instagram.com/kartikeygupta0311/"
         }
       }
     ]
