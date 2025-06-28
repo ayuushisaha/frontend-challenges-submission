@@ -5,7 +5,7 @@
     "status": "Active",
     "projects": [
       {
-        "projectName": "FC01_Aditya",
+        "projectName": "PS_Aditya",
         "studentName": "Aditya Ranjan",
         "rollNo": "1RV23AI008",
         "branch": "Artificial Intelligence and Machine Learning",
@@ -17,7 +17,7 @@
         }
       },
       {
-        "projectName": "Student Card",
+        "projectName": "PS_Shruti",
         "studentName": "Shruti Singh",
         "rollNo": "240105066",
         "branch": "Electrical Engineering",
@@ -29,7 +29,7 @@
         }
       },
       {
-        "projectName": "FC01_Dev",
+        "projectName": "PS_Dev",
         "studentName": "Dev Niranjan",
         "rollNo": "240108024",
         "branch": "Information Technology",
