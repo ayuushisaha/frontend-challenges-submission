@@ -5,7 +5,7 @@
     "status": "Active",
     "projects": [
       {
-        "projectName": "FC01_Aditya",
+        "projectName": "PS_Aditya",
         "studentName": "Aditya Ranjan",
         "rollNo": "1RV23AI008",
         "branch": "Artificial Intelligence and Machine Learning",
@@ -17,7 +17,7 @@
         }
       },
       {
-        "projectName": "Student Card",
+        "projectName": "PS_Shruti",
         "studentName": "Shruti Singh",
         "rollNo": "240105066",
         "branch": "Electrical Engineering",
@@ -29,12 +29,12 @@
         }
       },
       {
-        "projectName": "FC01_Dev",
+        "projectName": "PS_Dev",
         "studentName": "Dev Niranjan",
         "rollNo": "240108024",
         "branch": "Information Technology",
         "college": "Harcourt Butler Technical University",
-        "liveLink": "https://netflix-clone-git-main-dev-niranjans-projects.vercel.app",
+        "liveLink": "https://student-card-git-main-dev-niranjans-projects.vercel.app",
         "socials": {
           "github": "https://github.com/devNiranjan7",
           "linkedin": "https://www.linkedin.com/in/dev-niranjan-5810a1337",
