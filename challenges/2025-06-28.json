@@ -27,6 +27,19 @@
           "github": "https://github.com/shrutiiii007",
           "linkedin": "http://linkedin.com/in/shruti-singh-075b06325/"
         }
+      },
+      {
+        "projectName": "FC01_Dev",
+        "studentName": "Dev Niranjan",
+        "rollNo": "240108024",
+        "branch": "Information Technology",
+        "college": "Harcourt Butler Technical University",
+        "liveLink": "https://netflix-clone-git-main-dev-niranjans-projects.vercel.app",
+        "socials": {
+          "github": "https://github.com/devNiranjan7",
+          "linkedin": "https://www.linkedin.com/in/dev-niranjan-5810a1337",
+          "instagram": ""
+        }
       }
     ]
   }
