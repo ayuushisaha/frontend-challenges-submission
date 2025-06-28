@@ -1,22 +1,33 @@
 [
-    {
-      
-      "event": "Profile Submission [PS]",
-      "date": "2025-06-28",
-      "status": "Active",
-      "projects": [
-        {
+  {
+    "event": "Profile Submission [PS]",
+    "date": "2025-06-28",
+    "status": "Active",
+    "projects": [
+      {
         "projectName": "FC01_Aditya",
-  "studentName": "Aditya Ranjan",
-  "rollNo": "1RV23AI008",
-  "branch": "Artificial Intelligence and Machine Learning",
-  "college": "RV College of Engineering",
-  "liveLink": "https://aditya-ranjan1234.github.io/Student-Card/",
-  "socials": {
-    "github": "https://github.com/Aditya-Ranjan1234",
-    "linkedin": "https://www.linkedin.com/in/aditya-ranjan-rvce/"
-  }
+        "studentName": "Aditya Ranjan",
+        "rollNo": "1RV23AI008",
+        "branch": "Artificial Intelligence and Machine Learning",
+        "college": "RV College of Engineering",
+        "liveLink": "https://aditya-ranjan1234.github.io/Student-Card/",
+        "socials": {
+          "github": "https://github.com/Aditya-Ranjan1234",
+          "linkedin": "https://www.linkedin.com/in/aditya-ranjan-rvce/"
         }
-      ]
-    }
-  ]
+      },
+      {
+        "projectName": "Student Card",
+        "studentName": "Shruti Singh",
+        "rollNo": "240105066",
+        "branch": "Electrical Engineering",
+        "college": "Harcourt Butler Technical University",
+        "liveLink": "https://shrutiiii007.github.io/student-card/",
+        "socials": {
+          "github": "https://github.com/shrutiiii007",
+          "linkedin": "http://linkedin.com/in/shruti-singh-075b06325/"
+        }
+      }
+    ]
+  }
+]
