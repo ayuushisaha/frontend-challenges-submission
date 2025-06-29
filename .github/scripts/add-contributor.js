@@ -7,7 +7,7 @@ if (!username) {
   process.exit(1);
 }
 
-const readmePath = path.join(process.cwd(), 'README.md');
+const readmePath = path.join(process.cwd(), '/readme.md');
 let readme = fs.readFileSync(readmePath, 'utf8');
 
 const thankYouMarker = "## 🙌 Thanks for being part of Codextream!";
