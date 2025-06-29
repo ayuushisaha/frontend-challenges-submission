@@ -19,16 +19,16 @@ This is a simple and modern webpage where students can showcase their projects f
 ✅ Example:
 ```json
 {
-  "projectName": "FC01_Ravi",
-  "studentName": "Ravi Pratap Singh",
-  "rollNo": "230104047",
+  "projectName": "",
+  "studentName": "Ayushi Saha",
+  "rollNo": "23IUT0010111",
   "branch": "Computer Science & Engineering",
-  "college": "Harcourt Butler Technical University",
-  "liveLink": "https://philosopai.netlify.app/",
+  "college": "ICFAI UNIVERSITY OF TRIPURA",
+  "liveLink": "https://ayuushisaha.github.io/portfolio/",
   "socials": {
-    "github": "https://github.com/ravixalgorthm",
-    "linkedin": "https://linkedin.com/in/ravixalgorthm",
-    "instagram": "https://instagram.com/ravixalgorthm"
+    "github": "https://github.com/ayuushisaha",
+    "linkedin": "https://www.linkedin.com/in/ayushi-s-6a73bb35b",
+    "instagram": "https://instagram.com/ayuuushiiz"
   }
 }
 ```
