@@ -10,20 +10,15 @@ if (!username) {
 const readmePath = path.join(process.cwd(), 'README.md');
 let readme = fs.readFileSync(readmePath, 'utf8');
 
-// Where to add the Contributors section (after "Thanks for being part of Codextream")
 const thankYouMarker = "## 🙌 Thanks for being part of Codextream!";
-
-// Contributor markdown line
+const contributorsHeader = "## Contributors";
 const contributorLine = `- [@${username}](https://github.com/${username})`;
 
-// Check if already present
+// Already present? Exit.
 if (readme.includes(contributorLine)) {
   console.log('Contributor already present. Skipping.');
   process.exit(0);
 }
-
-const contributorsHeader = "## Contributors";
-const insertSection = `\n${contributorsHeader}\n${contributorLine}\n`;
 
 if (readme.includes(contributorsHeader)) {
   // Add to existing Contributors section (append if not present)
@@ -43,10 +38,10 @@ if (readme.includes(contributorsHeader)) {
   const afterThankYouIndex = readme.indexOf('\n', thankYouIndex);
   const before = readme.slice(0, afterThankYouIndex + 1);
   const after = readme.slice(afterThankYouIndex + 1);
-  readme = before + insertSection + after;
+  readme = before + `\n${contributorsHeader}\n${contributorLine}\n` + after;
 } else {
   // Fallback: append at end
-  readme += insertSection;
+  readme += `\n${contributorsHeader}\n${contributorLine}\n`;
 }
 
 fs.writeFileSync(readmePath, readme, 'utf8');
