@@ -45,4 +45,7 @@ If you want to run it locally with fetch working: Use **VSCode Live Server**
 
 ## 🙌 Thanks for being part of Codextream!
 
+## Contributors
+- [@ravixalgorithm](https://github.com/ravixalgorithm)
+
 Made with ❤️ by Codextream Community and Created by [Ravixalgorithm](https://github.com/ravixalgorithm)
