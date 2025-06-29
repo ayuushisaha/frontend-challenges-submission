@@ -1,5 +1,5 @@
 name: Add Contributor to README
-description: Automatically add a contributor to the README when a pull request is merged.
+
 on:
   pull_request:
     types:
@@ -26,7 +26,6 @@ jobs:
         env:
           CONTRIBUTOR_USERNAME: ${{ steps.get_author.outputs.username }}
         run: |
-          npm install fs path
           node .github/scripts/add-contributor.js
 
       - name: Commit changes
