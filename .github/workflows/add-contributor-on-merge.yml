@@ -5,6 +5,10 @@ on:
     types:
       - closed
 
+permissions:
+  contents: write
+
+
 jobs:
   add-contributor:
     if: github.event.pull_request.merged == true
