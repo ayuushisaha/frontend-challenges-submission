@@ -131,7 +131,21 @@
           "linkedin": "",
           "instagram": "https://www.instagram.com/kartikeygupta0311/"
         }
-      }
+      },
+      {
+  "projectName": "ps_sumit",
+  "studentName": "Sumit Singh Gautam",
+  "rollNo": "240104073",
+  "branch": "Computer Science & Engineering",
+  "college": "Harcourt Butler Technical University",
+  "liveLink": "https://sumitbhai9c.github.io/basic-portfolio/",
+  "socials": {
+    "github": "https://github.com/SumitBhai9c",
+    "linkedin": "https://www.linkedin.com/in/sumit-singh-gautam-209b48324",
+    "instagram": "https://www.instagram.com/sumitsinghgautam9c"
+  }
+}
+
     ]
   }
 ]
