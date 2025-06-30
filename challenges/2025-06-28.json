@@ -132,6 +132,20 @@
           "instagram": "https://www.instagram.com/kartikeygupta0311/"
         }
       },
+
+      {
+  "projectName": "ps_vikash",
+  "studentName": "vikash",
+  "rollNo": "240108083",
+  "branch": "Information Technology",
+  "college": "Harcourt Butler Technical University",
+  "liveLink": "https://studentcard1.vercel.app/",
+  "socials": {
+    "github": "https://github.com/vikash2309",
+    "linkedin": "https://www.linkedin.com/in/vikash-chaudhary-75b495346/",
+    "instagram": "https://www.instagram.com/vikash_chaudhary9031/"
+  }
+},
       {
   "projectName": "ps_sumit",
   "studentName": "Sumit Singh Gautam",
@@ -144,20 +158,8 @@
     "linkedin": "https://www.linkedin.com/in/sumit-singh-gautam-209b48324",
     "instagram": "https://www.instagram.com/sumitsinghgautam9c"
   }
-},
-{
-  "projectName": "ps_vikash",
-  "studentName": "vikash",
-  "rollNo": "240108083",
-  "branch": "Information Technology",
-  "college": "Harcourt Butler Technical University",
-  "liveLink": "https://studentcard1.vercel.app/",
-  "socials": {
-    "github": "https://github.com/vikash2309",
-    "linkedin": "https://www.linkedin.com/in/vikash-chaudhary-75b495346/",
-    "instagram": "https://www.instagram.com/vikash_chaudhary9031/"
-  }
 }
+
 
     ]
   }
