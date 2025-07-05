@@ -1,6 +1,7 @@
 // List all JSON files for each date here
 const jsonFiles = [
     "/challenges/2025-06-28.json",
+    "/challenges/2025-07-05.json"
 ];
 
 let allEvents = [];
