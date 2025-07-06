@@ -20,15 +20,15 @@ This is a simple and modern webpage where students can showcase their projects f
 ```json
 {
   "projectName": "",
-  "studentName": "Ayushi Saha",
-  "rollNo": "23IUT0010111",
+  "studentName": "Ravi Pratap Singh",
+  "rollNo": "230104047",
   "branch": "Computer Science & Engineering",
-  "college": "ICFAI UNIVERSITY OF TRIPURA",
-  "liveLink": "https://ayuushisaha.github.io/portfolio/",
+  "college": "Harcourt Butler Technical University",
+  "liveLink": "",
   "socials": {
-    "github": "https://github.com/ayuushisaha",
-    "linkedin": "https://www.linkedin.com/in/ayushi-s-6a73bb35b",
-    "instagram": "https://instagram.com/ayuuushiiz"
+    "github": "https://github.com/ravixalgorithm",
+    "linkedin": "https://www.linkedin.com/in/ravixalgorithm",
+    "instagram": "https://instagram.com/ravixalgorithm"
   }
 }
 ```
@@ -50,4 +50,3 @@ If you want to run it locally with fetch working: Use **VSCode Live Server**
 - [@vaishnavi-singh5](https://github.com/vaishnavi-singh5)
 
 Made with ❤️ by Codextream Community and Created by [Ravixalgorithm](https://github.com/ravixalgorithm)
-
