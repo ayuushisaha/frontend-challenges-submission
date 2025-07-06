@@ -4,6 +4,19 @@
       "date": "2025-07-05",
       "status": "Active",
       "projects": [
+        {
+            "projectName": "FC01-ravixalgorithm",
+            "studentName": "Ravi Pratap Singh",
+            "rollNo": "230104047",
+            "branch": "Computer Science & Engineering",
+            "college": "Harcourt Butler Technical University",
+            "liveLink": "https://briskpay.netlify.app/",
+            "socials": {
+              "github": "https://github.com/ravixalgorithm",
+              "linkedin": "https://www.linkedin.com/in/ravixalgorithm",
+              "instagram": "https://instagram.com/ravixalgorithm"
+            }
+          }
 
       ]
 
