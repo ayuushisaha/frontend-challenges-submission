@@ -1,0 +1,47 @@
+name: Add Contributor to README
+
+on:
+  pull_request:
+    types:
+      - closed
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  add-contributor:
+    if: github.event_name == 'push' || github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Get PR author username
+        if: github.event_name == 'pull_request'
+        id: get_pr_author
+        run: echo "username=${{ github.event.pull_request.user.login }}" >> $GITHUB_OUTPUT
+
+      - name: Get committer username (for push)
+        if: github.event_name == 'push'
+        id: get_committer
+        run: echo "username=${{ github.actor }}" >> $GITHUB_OUTPUT
+
+      - name: Add contributor to README
+        env:
+          CONTRIBUTOR_USERNAME: ${{ steps.get_pr_author.outputs.username || steps.get_committer.outputs.username }}
+        run: |
+          node .github/scripts/add-contributor.js
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: add ${{ steps.get_pr_author.outputs.username || steps.get_committer.outputs.username }} to Contributors in README"
+          branch: main

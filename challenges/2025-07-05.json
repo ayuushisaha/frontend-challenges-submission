@@ -1,0 +1,37 @@
+[
+    {
+      "event": "Frontend Challenge 01 [FC01]",
+      "date": "2025-07-05",
+      "status": "Active",
+      "projects": [
+        {
+            "projectName": "FC01-ravixalgorithm",
+            "studentName": "Ravi Pratap Singh",
+            "rollNo": "230104047",
+            "branch": "Computer Science & Engineering",
+            "college": "Harcourt Butler Technical University",
+            "liveLink": "https://briskpay.netlify.app/",
+            "socials": {
+              "github": "https://github.com/ravixalgorithm",
+              "linkedin": "https://www.linkedin.com/in/ravixalgorithm",
+              "instagram": "https://instagram.com/ravixalgorithm"
+            }
+          },
+          {
+  "projectName": "FC01_vikash",
+  "studentName": "vikash",
+  "rollNo": "240108083",
+  "branch": "Information Technology",
+  "college": "Harcourt Butler Technical University",
+  "liveLink": "https://briskpay-one.vercel.app/",
+  "socials": {
+    "github": "https://github.com/vikash2309",
+    "linkedin": "https://www.linkedin.com/in/vikash-chaudhary-75b495346/",
+    "instagram": "https://www.instagram.com/vikash_chaudhary9031/"
+  }
+}
+
+      ]
+
+    }
+]
