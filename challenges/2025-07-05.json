@@ -18,6 +18,20 @@
             }
           },
           {
+        "projectName": "PS_Lokesh",
+        "studentName": "Lokeh Singhal",
+        "rollNo": "240108039",
+        "branch": "Information Technology",
+        "college": "Harcourt Butler Technical University",
+        "liveLink": "https://briskpay2.netlify.app/",
+        "socials": {
+          "github": "https://github.com/lokesh-singhal",
+          "linkedin": "https://www.linkedin.com/in/lokesh-singhal",
+          "instagram": "https://instagram.com/singhal_g_"
+        }
+      },
+        {
+
               "projectName": "FC01_vikash",
               "studentName": "vikash",
               "rollNo": "240108083",
