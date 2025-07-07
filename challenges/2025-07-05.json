@@ -56,7 +56,21 @@
                 "linkedin": "https://www.linkedin.com/in/ayushi-s-6a73bb35b",
                 "instagram": "https://instagram.com/ayuuushiiz"
                }
-            }
+            },
+           {
+              
+              "projectName": "FC01_VEDANT",
+              "studentName": "Vedant Patil",
+              "rollNo": "23IUT0010115",
+              "branch": "IT",
+              "college": "SPPU UNIVERSITY",
+              "liveLink": "https://686b6859ef402d3062537666--vocal-cobbler-fa7a49.netlify.app/",
+              "socials": {
+                "github": "https://github.com/Vedant515",
+                "linkedin": "https://www.linkedin.com/in/vedant-patil-932160339/",
+                "instagram": "https://www.instagram.com/vedant_1512_?igsh=dThha3ltczl5ZWZk"
+              }
+          }
         ]
 
     }
